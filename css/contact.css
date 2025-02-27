@@ -19,7 +19,7 @@
 
 a {
   text-decoration: none;
-  color: #007AFF;
+  /* color: #007AFF; */
   transition: color 0.3s ease;
 }
 
@@ -53,18 +53,18 @@ a:hover {
   color: #555;
 }
 
-#contactForm {
+#contact-form {
   display: flex;
-  flex-direction: column; /* Stack form elements vertically */
-}
+  flex-direction: column;
+} 
 
-#contactForm input,
+ #contact-form input,
 #contactForm select {
   margin-bottom: 15px;
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 5px;
-  box-sizing: border-box; /* Include padding and border in width */
+  box-sizing: border-box;
 }
 
 .send {
@@ -153,6 +153,8 @@ a:hover {
   margin-top: 15px;
   color: #343a40;
 }
+
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
